@@ -25,4 +25,9 @@ class CartItem
     {
         return $this->product->getPrice() * $this->quantity;
     }
+
+    public function increaseQuantity(int $quantity): void
+    {
+        $this->quantity += $quantity;
+    }
 }
