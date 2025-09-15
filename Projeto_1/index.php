@@ -3,7 +3,7 @@
 require_once 'classes/Product.php';
 require_once 'classes/CartItem.php';
 require_once 'classes/Cart.php';
-require_once 'classes/LoggeError.php';
+require_once 'classes/LogError.php';
 
 
 $products = [
@@ -12,7 +12,7 @@ $products = [
     new Product(3, "Tênis", 199.99, 3)
 ];
 
-$loggeError = new LoggeError();
+$loggeError = new LogError();
 $cart = new Cart($loggeError);
 
 echo "<h3>Cart Items:</h3>";
