@@ -1,6 +1,6 @@
 <?php
 
-class LoggeError
+class LogError
 {
     private array $messages = [];
 
