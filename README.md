@@ -46,11 +46,14 @@ Clone o repositório para a pasta htdocs do XAMPP.
 - Não utiliza frameworks externos (somente PHP puro).
 
 ##  Estrutura de pastas
- Projeto_1/ 
- ├── classes/ 
- │ ├── Cart.php 
- │ ├── CartItem.php 
- │ ├── LoggeError.php 
- │ └── Product.php 
- ├── index.php 
- └── README.md
+```
+Projeto_1/
+├── classes/
+│   ├── Cart.php
+│   ├── CartItem.php
+│   ├── LogError.php
+│   └── Product.php
+├── index.php
+└── README.md
+```
+
