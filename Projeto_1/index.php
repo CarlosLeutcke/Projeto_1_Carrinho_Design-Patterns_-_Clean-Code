@@ -12,7 +12,7 @@ $products = [
     new Product(3, "Tênis", 199.99, 3)
 ];
 
-$loggeError = new LogError();
+$logError = new LogError();
 $cart = new Cart($loggeError);
 
 echo "<h3>Cart Items:</h3>";
@@ -36,4 +36,4 @@ if (empty($cart->getItems())) {
     echo "<b>Total com desconto:</b> " . number_format($cart->getTotal(), 2, ',', '.') . "<br><br>";
 }
 
-$loggeError->show();
+$logError->show();
