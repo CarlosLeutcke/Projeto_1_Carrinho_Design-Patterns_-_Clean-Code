@@ -13,7 +13,7 @@ $products = [
 ];
 
 $logError = new LogError();
-$cart = new Cart($loggeError);
+$cart = new Cart($logError);
 
 echo "<h3>Cart Items:</h3>";
 
